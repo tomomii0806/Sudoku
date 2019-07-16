@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tnakamura.MainController">
+   <children>
+      <Text fill="#0a0a0a" layoutX="261.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUDOKU">
+         <font>
+            <Font name="Lao MN Bold" size="72.0" />
+         </font>
+      </Text>
+      <Text fill="#bc0a0a" layoutX="426.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="O">
+         <font>
+            <Font name="Lao MN Bold" size="72.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="453.0" layoutY="203.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Text layoutX="83.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose A Level to Start">
+         <font>
+            <Font name="Lao MN" size="18.0" />
+         </font></Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="413.0" layoutY="243.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="493.0" layoutY="203.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="493.0" layoutY="243.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="493.0" layoutY="283.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="413.0" layoutY="283.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="453.0" layoutY="243.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="580.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="40.0" layoutX="453.0" layoutY="283.0" stroke="#9e9292" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="510.0" layoutY="335.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="580.0" layoutY="370.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="545.0" layoutY="370.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="580.0" layoutY="300.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="545.0" layoutY="265.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="510.0" layoutY="440.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="615.0" layoutY="335.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="720.0" layoutY="440.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="544.0" layoutY="510.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="615.0" layoutY="475.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="580.0" layoutY="440.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="615.0" layoutY="230.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="615.0" layoutY="440.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="545.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="545.0" layoutY="440.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="615.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="580.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="545.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="545.0" layoutY="335.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="615.0" layoutY="370.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="580.0" layoutY="335.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="615.0" layoutY="300.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="615.0" layoutY="265.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="580.0" layoutY="265.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="580.0" layoutY="230.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="545.0" layoutY="300.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="545.0" layoutY="230.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="510.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="510.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="475.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="440.0" layoutY="335.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="440.0" layoutY="370.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="475.0" layoutY="335.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="510.0" layoutY="370.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="615.0" layoutY="510.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="580.0" layoutY="510.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="300.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="720.0" layoutY="300.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="720.0" layoutY="265.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="720.0" layoutY="230.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="300.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="265.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="230.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="230.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="510.0" layoutY="510.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="440.0" layoutY="510.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="440.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="440.0" layoutY="440.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="475.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="475.0" layoutY="440.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="440.0" layoutY="405.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="475.0" layoutY="510.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="720.0" layoutY="475.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="650.0" layoutY="510.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="685.0" layoutY="405.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="720.0" layoutY="370.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="650.0" layoutY="335.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bc0202" height="35.0" layoutX="685.0" layoutY="265.0" stroke="#c30606" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="475.0" layoutY="370.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="510.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="720.0" layoutY="510.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="440.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="475.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="440.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="720.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="405.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="370.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="720.0" layoutY="335.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="685.0" layoutY="335.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.0" layoutX="650.0" layoutY="370.0" stroke="#9e9292" strokeType="INSIDE" width="35.0" />
+      <Button fx:id="beginner" layoutX="70.0" layoutY="244.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#playBeginner" onMouseEntered="#handleBtn1" onMouseExited="#handleBtn1Exit" prefHeight="101.0" prefWidth="100.0" style="-fx-background-color: black;" text="Begginer" textFill="WHITE" />
+      <Button fx:id="elementary" layoutX="194.0" layoutY="244.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#playElementry" onMouseEntered="#handleBtn2" onMouseExited="#handleBtn2Exit" prefHeight="101.0" prefWidth="100.0" style="-fx-background-color: black;" text="Elementary" textFill="#fffffe">
+         <font>
+            <Font name="Lao MN" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="intermediate" layoutX="70.0" layoutY="370.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#playIntermediate" onMouseEntered="#handleBtn3" onMouseExited="#handleBtn3Exit" prefHeight="101.0" prefWidth="100.0" style="-fx-background-color: black;" text="Intermediate" textFill="WHITE" />
+      <Button fx:id="advanced" layoutX="194.0" layoutY="370.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#playAdvanced" onMouseEntered="#handleBtn4" onMouseExited="#handleBtn4Exit" prefHeight="101.0" prefWidth="100.0" style="-fx-background-color: black;" text="Advanced" textFill="WHITE" />
+   </children>
+</AnchorPane>
